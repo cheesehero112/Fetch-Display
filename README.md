@@ -18,19 +18,13 @@ After the table is displayed, additional button clicks will not make any API req
 
 - .vscode
 
-  - This file is in the root folder and contains the settings.json file.
+  - This folder is in the root folder and contains the settings.json file.
 
-- Index.html
+- index.html
 
-  - This file is in the root folder and contains the HTML file.
+- app.js
 
-- App.js
-
-  - This file is in the root folder and contains the following files: 
-
-- Styles.css
-
-  - This folder is in the root folder and contains the following files:
+- styles.css
 
 - media
 
