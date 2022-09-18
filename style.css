@@ -1,0 +1,19 @@
+.data-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.data-title {
+  text-align: center;
+}
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+
+td {
+  padding: 4px;
+}
