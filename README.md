@@ -16,6 +16,10 @@ After the table is displayed, additional button clicks will not make any API req
 
 - README.md (this file)
 
+- .vscode
+
+  - This file is in the root folder and contains the settings.json file.
+
 - Index.html
 
   - This file is in the root folder and contains the HTML file.
@@ -42,8 +46,8 @@ After the table is displayed, additional button clicks will not make any API req
 
 Screenshot 1 (before fetch button clicked)
 
-![hangman-screenshot1](https://github.com/cheesehero112/hangman/raw/main/media/hangman-start.png)
+![Fetch-Display-before](https://github.com/cheesehero112/Fetch-Display/raw/main/media/Fetch-Display-before.png)
 
 Screenshot 2 (after fetch button clicked)
 
-![hangman-screenshot1](https://github.com/cheesehero112/hangman/raw/main/media/hangman-start.png)
+![Fetch-Display-after](https://github.com/cheesehero112/Fetch-Display/raw/main/media/Fetch-Display-after.png)
