@@ -30,18 +30,18 @@ const tableMaker = (data) => {
     const personRow = document.createElement("tr");
     personRow.setAttribute("id", `person-row${index}`);
     // add username, email and phone
-    const nameTr = document.createElement("td");
-    const emailTr = document.createElement("td");
-    const phoneTr = document.createElement("td");
-    nameTr.innerText = person.username;
-    emailTr.innerText = person.email;
-    phoneTr.innerText = person.phone;
+    const nameTd = document.createElement("td");
+    const emailTd = document.createElement("td");
+    const phoneTd = document.createElement("td");
+    nameTd.innerText = person.username;
+    emailTd.innerText = person.email;
+    phoneTd.innerText = person.phone;
     // append current personRow into tbody tag
     document.querySelector("tbody").appendChild(personRow);
     // append each item to current person-row
-    document.getElementById(`person-row${index}`).appendChild(nameTr);
-    document.getElementById(`person-row${index}`).appendChild(emailTr);
-    document.getElementById(`person-row${index}`).appendChild(phoneTr);
+    document.getElementById(`person-row${index}`).appendChild(nameTd);
+    document.getElementById(`person-row${index}`).appendChild(emailTd);
+    document.getElementById(`person-row${index}`).appendChild(phoneTd);
   });
 };
 
